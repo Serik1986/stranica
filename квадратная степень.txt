@@ -1,0 +1,21 @@
+function pow(x,n) {
+  let c=x;
+   for (let i=1; i <= n; i++){
+      c *=x;   
+  }
+  return c;
+} 
+  
+  alert(pow(2,4));
+
+
+вторая версия
+
+let a = prompt ('введите число','');
+  let b = prompt ('введите степень','');
+  function sq(a,b) {
+   return a**b;
+  }
+  let result = sq(a, b);
+   alert(result) ;
+

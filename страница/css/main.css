@@ -1,0 +1,20 @@
+body{
+    background: LightGrey;
+}
+.row  {
+    
+    background-color: gainsboro;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    
+}
+.col{
+    text-align: justify, left;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}

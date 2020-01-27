@@ -1,0 +1,11 @@
+  <script>
+
+let  a  = prompt('vvedite chislo');
+var r = Math.floor(Math.random() * a);
+var r2 = Math.floor(Math.random() * a);
+var r3 = Math.floor(Math.random() * a);
+var r4 = Math.floor(Math.random() * a);
+alert (r);
+alert (r2);alert (r3);alert (r4);
+
+  </script>

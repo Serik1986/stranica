@@ -1,0 +1,15 @@
+let a = prompt ('');
+
+switch (true) {
+  case a < 100:
+    alert( 'rueМаловато' );
+    break;
+  case a == 100:
+    alert( 'В точку!' );
+    break;
+  case a > 100:
+    alert( 'Перебор' );
+    break;
+  default:
+    alert( "Нет таких значений" );
+}

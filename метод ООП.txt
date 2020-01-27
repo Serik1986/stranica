@@ -1,0 +1,28 @@
+var dogName ;
+var dogWeight;
+  let Spot = {
+dogName : "spot",
+dogWeight : 13
+}
+let Spike = {
+dogName : "spike",
+dogWeight : 53
+}
+let Lady ={
+dogName : "lady",
+dogWeight : 17
+}
+function dogW() {
+if (this.dogWeight > 20) {
+console.log(this.dogName + " says WOOF WOOF");
+} else {
+console.log(this.dogName + " says woof woof");
+}
+}
+Lady.dogW=dogW;
+Spike.dogW=dogW;
+Spot.dogW=dogW;
+
+let a = prompt('');
+		a.dogW();	   
+		

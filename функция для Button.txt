@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+BUTTON 
+
+function changeColor(newColor) {
+let a = document.getElementById("para1");
+a.style.color = newColor;
+
+}
+  </script>
+  <p id="para1">Some text here</p>
+  <button onclick="changeColor('blue');">blue</button>
+  <button onclick="changeColor('red');">red</button>
+  <button onclick="changeColor('black');">black</button>

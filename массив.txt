@@ -1,0 +1,25 @@
+ function sumInput() {
+      let massiv = [];
+      let a = prompt('vvedite dilnu massiva',0);
+      for (let i = 0; i < a; i++ ) {
+        let b = prompt('vvedite element massiva',0); 
+      massiv.push(b); 
+      
+      } 
+      alert(massiv)  ;
+  }
+    sumInput();
+
+let arr1 = new Array(5);
+let arr2 = Array(5);
+let arr3 = [5, 3, 2, 10];
+console.log( arr3[0]);
+let a = [];
+
+arr3.forEach(function(element) {
+     let i = 0;
+     a[i] = element +1;
+   i++;
+   console.log(a);
+   
+});

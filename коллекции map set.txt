@@ -1,0 +1,33 @@
+const map  = new Map([  // Коллекция МАП нужна для выстаскивания свойств и значение с помощью ключа
+
+    ['apple', 100],
+    ['orange', 200],
+    ['banan', 150]
+]);                       
+map.set('kiwi',500)  //добавляет новый элемент с ключом
+
+console.log(map.get('kiwi')); // выводит элемент или делает запрос элемента
+
+console.log(map.has('apple'));// проверяет элемент
+console.log(map.size); // размер коллекции
+
+
+
+const obj = {
+    name: 'serik',
+    age: 26,
+    job: 'fulls'
+}
+    const entries = [
+        ['name', 'val'],
+        ['age', 260]
+    ]
+
+    console.log(Object.entries(obj));
+    console.log(Object.fromEntries(entries));
+    const map = new Map(entries)
+    console.log(...map);
+    console.log(map.get('age'));
+    console.log(map.set(entries, obj )); // ключ и значение два ОБЪЕКТА!
+    
+
